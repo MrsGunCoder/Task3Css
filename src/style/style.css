@@ -1,0 +1,50 @@
+nav {
+  /* display: flex;
+align-items: center;
+justify-content: center; */
+  margin-left: 35%;
+}
+
+img {
+  width: 280px;
+  margin-left: 150px;
+  height: 300px;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  background-color: black;
+  transition: transform 0.25s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+footer {
+  text-align:center;
+  margin :30px; 
+  font-size: larger;
+  
+}
+
+span {
+margin-left: 90px;
+/* padding-left: 25; */
+
+}
